@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deal Teardowns · BizzedAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/teardowns.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<div class="bg-grid"></div>
+<div class="content" id="listing-page">
+ 
+  <nav class="nav">
+    <a href="index.html" class="logo">bizzed.ai</a>
+    <div class="nav-center">
+      <a href="https://bizzedailandingtest.pages.dev/" class="nav-pill">Home</a>
+      <a href="reports.html" class="nav-pill">Reports</a>
+      <a href="teardowns.html" class="nav-pill active">Teardowns</a>
+    </div>
+    <a href="https://www.bizzed.ai/get-started" class="nav-btn">Get Started →</a>
+  </nav>
+ 
+  <section class="page-header">
+    <div class="page-eyebrow">Weekly · Free Forever · Since 2024</div>
+    <h1>Deal <em>Teardowns</em></h1>
+    <p class="page-sub">Every Tuesday, one real SMB listing run through <strong>17 specialized AI agents</strong>. Financials, red flags, downside models, verdict. Built for serious buyers.</p>
+  </section>
+ 
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-n">49</div><div class="stat-l">Issues Published</div></div>
+    <div class="stat-item"><div class="stat-n">17</div><div class="stat-l">AI Agents Per Deal</div></div>
+    <div class="stat-item"><div class="stat-n">Free</div><div class="stat-l">Forever</div></div>
+    <div class="stat-item"><div class="stat-n">Tue</div><div class="stat-l">Weekly Cadence</div></div>
+    <div class="stat-item"><div class="stat-n">1,842</div><div class="stat-l">Subscribers</div></div>
+  </div>
+ 
+  <section class="featured-section">
+    <div class="section-label">Latest issue · live now</div>
+    <div class="featured-card" onclick="openDoc('049')">
+      <div>
+        <div class="ft-tag"><span class="d"></span>ISSUE #002 · APRIL 22, 2026</div>
+        <div class="ft-title">Texas Dog <em>Grooming.</em><br>Pay the premium, or walk?</div>
+        <div class="ft-meta">$750K–$800K REV · 12 EMPLOYEES · ASKING $549K · EST. 2023</div>
+        <div class="ft-desc">A high-growth Texas groomer averaging $126 per visit — 50–90% above national. 2,400-client base, a 2–3 week waitlist, AI-driven booking. But: only 3 years old, 3.52x asking multiple, and groomer labour is the scarcest resource in pet services.</div>
+        <div class="ft-verdict">
+          <span class="l">◉ OUR VERDICT</span>
+          <span class="r">Hold — Verify, Then Counter at $425K–$475K</span>
+        </div>
+        <button class="ft-cta">Read the full teardown →</button>
+      </div>
+      <div class="ft-preview">
+        <div class="fp-hd"><span>DEAL_TEARDOWN · #002</span><span>TEXAS</span></div>
+        <div class="fp-stats">
+          <div class="fp-s"><div class="n">$156K</div><div class="l">Current SDE</div></div>
+          <div class="fp-s"><div class="n">3.52x</div><div class="l">Ask Mult</div></div>
+          <div class="fp-s"><div class="n">$126</div><div class="l">Avg Ticket</div></div>
+        </div>
+        <div class="fp-chart">
+          <div class="bar-n" style="height:28%"></div>
+          <div class="bar-n" style="height:52%"></div>
+          <div class="bar-n" style="height:100%"></div>
+          <div class="bar-n" style="height:110%;opacity:.5"></div>
+          <div class="bar-n" style="height:120%;opacity:.3"></div>
+        </div>
+        <div class="fp-labels"><span>'23</span><span>'24</span><span>'25</span><span>'26P</span><span>'27P</span></div>
+        <div class="fp-lock">FULL REPORT · SIGN UP TO UNLOCK</div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="archive-section" id="archive">
+    <div class="archive-head">
+      <h2>The <em>archive.</em></h2>
+      <div class="archive-count">1 PAST ISSUE · 2026</div>
+    </div>
+    <div class="grid-3">
+ 
+      <div class="card" onclick="openDoc('048')" role="button" tabindex="0">
+        <div class="card-hd"><span class="card-num">#001 · APR 15</span><span class="card-verdict v-cond">CONDITIONAL BUY</span></div>
+        <div class="card-title">Albany Metro HVAC.</div>
+        <div class="card-meta">$4.36M REV · 17 EMPLOYEES · HVAC / SHEET METAL</div>
+        <div class="card-stats">
+          <div class="card-s"><div class="n">$740K</div><div class="l">2025 SDE</div></div>
+          <div class="card-s"><div class="n">3.24x</div><div class="l">Ask Mult</div></div>
+          <div class="card-s"><div class="n">$1.9M</div><div class="l">Target</div></div>
+        </div>
+        <div class="card-desc">Albany semiconductor wave HVAC play. In-house fab shop is a real moat. 2023 earnings collapse + 80% GC concentration demand a structured counter-offer.</div>
+        <div class="card-foot"><span class="card-read">Read now →</span><span class="card-time">10 MIN READ</span></div>
+      </div>
+      <div class="card-soon">
+        <div class="card-soon-hd"><span style="color:var(--violet);font-size:10px;letter-spacing:1.5px">#050</span><span class="soon-badge">Coming Soon</span></div>
+        <div class="card-soon-date">Apr 29</div>
+        <div class="card-soon-label">Next teardown drops Tuesday</div>
+        <div class="card-soon-footer"><span class="soon-pulse"></span>Subscribe to get it in your inbox</div>
+      </div>
+      <div class="card-soon">
+        <div class="card-soon-hd"><span style="color:var(--violet);font-size:10px;letter-spacing:1.5px">#051</span><span class="soon-badge">Coming Soon</span></div>
+        <div class="card-soon-date">May 6</div>
+        <div class="card-soon-label">17 agents. One verdict.</div>
+        <div class="card-soon-footer"><span class="soon-pulse"></span>Every Tuesday · Free forever</div>
+      </div>
+      <div class="card-soon">
+        <div class="card-soon-hd"><span style="color:var(--violet);font-size:10px;letter-spacing:1.5px">#052</span><span class="soon-badge">Coming Soon</span></div>
+        <div class="card-soon-date">May 13</div>
+        <div class="card-soon-label">Financials. Red flags. Verdict.</div>
+        <div class="card-soon-footer"><span class="soon-pulse"></span>Every Tuesday · Free forever</div>
+      </div>
+      <div class="card-soon">
+        <div class="card-soon-hd"><span style="color:var(--violet);font-size:10px;letter-spacing:1.5px">#053</span><span class="soon-badge">Coming Soon</span></div>
+        <div class="card-soon-date">May 20</div>
+        <div class="card-soon-label">Built for serious buyers.</div>
+        <div class="card-soon-footer"><span class="soon-pulse"></span>Every Tuesday · Free forever</div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer>
+    <div>© 2026 Bizzed AI · Due Diligence, Reimagined</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="reports.html">Reports</a>
+      <a href="mailto:support@bizzed.ai">Contact</a>
+      <a href="#">Privacy</a>
+    </div>
+  </footer>
+ 
+</div><!-- /listing-page -->
+ 
+<!-- ================================================================
+     DOCUMENT PAGE
+================================================================ -->
+<div id="doc-page">
+ 
+  <div class="doc-topbar">
+    <button class="doc-back" onclick="closeDoc()">← Back to Teardowns</button>
+    <span class="doc-brand">bizzed.ai</span>
+    <span class="doc-topbar-right" id="doc-topbar-label">Issue #002 · Apr 22, 2026</span>
+  </div>
+ 
+  <!-- ============================================================
+       ISSUE #002 — TEXAS DOG GROOMING
+  ============================================================ -->
+  <div class="doc-body" id="doc-049" style="display:none">
+    <div class="doc-eyebrow">Weekly Deal Teardown · Issue #002</div>
+    <h1 class="doc-title">Texas Dog <em>Grooming.</em></h1>
+    <p class="doc-subtitle">$750K–$800K projected revenue · 12 employees · Est. 2023 · Asking $549K · $126 average ticket · 2,400+ clients</p>
+ 
+    <!-- THESIS VERDICT BANNER -->
+    <div class="thesis-verdict-strip">
+      <div class="tvs-top-row">
+        <div class="tvs-cell tvs-verdict">
+          <span class="tvs-label">THESIS VERDICT</span>
+          <span class="tvs-val">Hold</span>
+        </div>
+        <div class="tvs-cell">
+          <span class="tvs-label">TARGET SECTOR</span>
+          <span class="tvs-val tvs-pink">Pet Services</span>
+        </div>
+        <div class="tvs-cell">
+          <span class="tvs-label">COUNTER PRICE</span>
+          <span class="tvs-val tvs-violet">$425K–$475K</span>
+        </div>
+      </div>
+      <div class="tvs-stats-row">
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">58</span><span class="tvs-stat-lbl">BizzedAI Score</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">$549K</span><span class="tvs-stat-lbl">Asking Price</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">$156K</span><span class="tvs-stat-lbl">Current SDE</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">3.52x</span><span class="tvs-stat-lbl">Ask Multiple</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">$126</span><span class="tvs-stat-lbl">Avg Ticket</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">2,400+</span><span class="tvs-stat-lbl">Clients</span></div>
+      </div>
+    </div>
+ 
+    <!-- DEAL HEALTH OVERVIEW -->
+    <div class="dd-dashboard" style="margin-bottom:32px">
+      <div class="dd-dash-hd">Deal Health Overview</div>
+      <!-- SVG gradient defs -->
+      <svg width="0" height="0" style="position:absolute">
+        <defs>
+          <linearGradient id="gradBrit2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#c4b5fd"/>
+            <stop offset="100%" stop-color="#8b5cf6"/>
+          </linearGradient>
+          <linearGradient id="gradBizzed2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f472b6"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+          </linearGradient>
+          <linearGradient id="gradSows2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6ee7b7"/>
+            <stop offset="100%" stop-color="#10b981"/>
+          </linearGradient>
+          <linearGradient id="gradDealBad2" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fca5a5"/>
+            <stop offset="100%" stop-color="#ef4444"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="dd-scores-row" style="margin-bottom:28px">
+        <!-- BRIT -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill" cx="55" cy="55" r="46"
+                data-pct="58"
+                stroke="url(#gradBrit2)"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="58">0%</span>
+              <span class="dd-ring-sub">BRIT</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">BRIT Potential</span>
+        </div>
+        <!-- BizzedAI Score -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill" cx="55" cy="55" r="46"
+                data-pct="60"
+                stroke="url(#gradBizzed2)"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="60">0%</span>
+              <span class="dd-ring-sub">SCORE</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">BizzedAI Score</span>
+        </div>
+        <!-- Market Score -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill" cx="55" cy="55" r="46"
+                data-pct="70"
+                stroke="url(#gradSows2)"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="70">0%</span>
+              <span class="dd-ring-sub">MARKET</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">Market Score</span>
+        </div>
+        <!-- Risk Score -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill" cx="55" cy="55" r="46"
+                data-pct="30"
+                stroke="url(#gradDealBad2)"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="30">0%</span>
+              <span class="dd-ring-sub">RISK</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">Dealbreaker Score</span>
+        </div>
+      </div>
+      <!-- Verdict strip -->
+      <div class="dd-verdict-strip">
+        <span class="dd-verdict-badge">◎ Verdict</span>
+        <span class="dd-verdict-val">Hold — Verify First, Then Counter at $425K–$475K</span>
+        <span class="dd-verdict-score">58 / 100</span>
+      </div>
+      <div class="dd-risks-hd"><span class="dd-risk-icon">⚠</span>Key Risk Factors</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1.5px;color:var(--danger);text-transform:uppercase;margin-bottom:8px;padding-left:4px">● Critical Risks</div>
+      <div class="dd-risk-rows" style="margin-bottom:12px">
+        <div class="dd-risk-row crit">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">Critical</span>
+            <span class="dd-risk-title">Only 3 Years of Operating History</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">The standard acquisition floor is 3–5 years of auditable financials. At 3 years, there is insufficient data to establish a trend. Any valuation premium requires at least 2 verified tax returns with matching bank statements.</div>
+        </div>
+        <div class="dd-risk-row crit">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">Critical</span>
+            <span class="dd-risk-title">Asking Multiple Exceeds Market Range</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">3.52× current SDE exceeds the 2.0–3.3× market range for pet grooming. The seller is pricing future performance. Counter at $425K–$475K upfront plus a $50K–$75K earn-out tied to 12-month milestones.</div>
+        </div>
+      </div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1.5px;color:var(--warn);text-transform:uppercase;margin-bottom:8px;padding-left:4px">● High Risks</div>
+      <div class="dd-risk-rows" style="margin-bottom:12px">
+        <div class="dd-risk-row high">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">High</span>
+            <span class="dd-risk-title">Groomer Labour Shortage — Retention Risk</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">Groomers ARE the revenue. The U.S. faces a shortage of ~64,000 pet groomers nationally. If the top 2–3 producers leave at close, the $126 ticket and the waitlist leave with them. Retention bonuses funded by the seller at close are non-negotiable.</div>
+        </div>
+        <div class="dd-risk-row high">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">High</span>
+            <span class="dd-risk-title">Lease: Only 3 Years Remaining</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">Facilities with under 4 years on lease lose 30–40% of resale value. Require written landlord confirmation of lease assignment and the 5-year renewal option before proceeding to LOI.</div>
+        </div>
+      </div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1.5px;color:var(--success);text-transform:uppercase;margin-bottom:8px;padding-left:4px">● Key Strengths</div>
+      <div class="dd-risk-rows">
+        <div class="dd-risk-row str">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">Strength</span>
+            <span class="dd-risk-title">$126 Average Ticket — 50–91% Above National Average</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">A 2–3 week waitlist and 2,400+ client database confirm this is not just a listing claim — it is validated by sustained demand. Pricing power of this magnitude in a commoditised service business is genuinely rare.</div>
+        </div>
+        <div class="dd-risk-row str">
+          <div class="dd-risk-hd" onclick="this.parentElement.classList.toggle('open')">
+            <span class="dd-risk-badge">Strength</span>
+            <span class="dd-risk-title">Built-In Expansion Capacity — No Capex Required</span>
+            <span class="dd-risk-arrow">&#9660;</span>
+          </div>
+          <div class="dd-risk-body">2,100 sq ft facility has room for 1–2 additional grooming stations. The seller projects $243K in additional revenue with no capital investment. Most grooming businesses that want to grow must invest in facility expansion first.</div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- DASHBOARD -->
+    
+    <div class="groom-dash">
+ 
+      <!-- Row 1: KPIs + Revenue Growth chart -->
+      <div class="groom-row two">
+        <div class="groom-panel">
+          <div class="gp-hd"><span>Key Financials</span><span class="gp-sub">At a Glance</span></div>
+          <div class="groom-kpi-grid">
+            <div class="groom-kpi"><div class="n">$549K</div><div class="l">Asking Price</div></div>
+            <div class="groom-kpi"><div class="n">$156K</div><div class="l">Current SDE</div></div>
+            <div class="groom-kpi"><div class="n">3.52x</div><div class="l">Ask Multiple</div></div>
+            <div class="groom-kpi"><div class="n">$126</div><div class="l">Avg Ticket</div></div>
+            <div class="groom-kpi"><div class="n">131%</div><div class="l">YoY Growth '25</div></div>
+            <div class="groom-kpi"><div class="n" style="color:#f472b6">$214K</div><div class="l">Projected SDE</div></div>
+          </div>
+          <div class="gp-note">Asking 3.52× current SDE is above the 2.0–3.3× market range. At <strong>projected $214K SDE</strong>, the effective multiple drops to 2.57× — attractive if projections are met and verified.</div>
+        </div>
+ 
+        <div class="groom-panel">
+          <div class="gp-hd"><span>Revenue Trajectory</span><span class="gp-sub">Est. / Projected</span></div>
+          <svg viewBox="0 0 440 240" width="100%" style="display:block;overflow:visible;min-height:200px">
+            <!-- Grid -->
+            <line x1="50" y1="20" x2="420" y2="20" stroke="rgba(255,255,255,.05)" stroke-width="1"/>
+            <line x1="50" y1="65" x2="420" y2="65" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <line x1="50" y1="110" x2="420" y2="110" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <line x1="50" y1="155" x2="420" y2="155" stroke="rgba(255,255,255,.06)" stroke-width="1"/>
+            <line x1="50" y1="185" x2="420" y2="185" stroke="rgba(255,255,255,.1)" stroke-width="1"/>
+            <!-- Y labels — scale: 0=185, 1M=20. 185px / $1M = $5,405/px -->
+            <text x="42" y="24" text-anchor="end" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">$1M</text>
+            <text x="42" y="69" text-anchor="end" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">$750K</text>
+            <text x="42" y="114" text-anchor="end" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">$500K</text>
+            <text x="42" y="159" text-anchor="end" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">$250K</text>
+            <!-- Bars: x positions at 80, 160, 240, 320, 400 -->
+            <!-- 2023: ~$325K est → y = 185-(325/1000*165)=185-53.6=131.4 h=53.6 -->
+            <rect x="58" y="131" width="44" height="54" rx="4" fill="rgba(139,92,246,.55)"/>
+            <text x="80" y="124" text-anchor="middle" fill="#a78bfa" font-size="12" font-family="monospace">$325K</text>
+            <!-- 2024: ~$325K*2.31=~$325K (rough: 131% YoY was 2025, so 2024 was ~$325K) actually use listing: 131% YoY in 2025 from 2024 → 2024~$325K, 2025~$750K -->
+            <rect x="138" y="131" width="44" height="54" rx="4" fill="rgba(139,92,246,.65)"/>
+            <text x="160" y="124" text-anchor="middle" fill="#a78bfa" font-size="12" font-family="monospace">$325K</text>
+            <!-- 2025: $750K → y=185-(750/1000*165)=185-123.75=61.25 h=123.75 -->
+            <rect x="218" y="61" width="44" height="124" rx="4" fill="rgba(139,92,246,.8)"/>
+            <text x="240" y="54" text-anchor="middle" fill="#c4b5fd" font-size="12" font-family="monospace" font-weight="700">$750K</text>
+            <!-- 2026P: $800K → y=185-132=53 h=132 -->
+            <rect x="298" y="53" width="44" height="132" rx="4" fill="rgba(244,114,182,.75)"/>
+            <text x="320" y="46" text-anchor="middle" fill="#f472b6" font-size="12" font-family="monospace">$800K</text>
+            <!-- 2027P: $993K (capacity) → y=185-164=21 h=164 -->
+            <rect x="378" y="21" width="44" height="164" rx="4" fill="rgba(244,114,182,.65)"/>
+            <text x="400" y="14" text-anchor="middle" fill="#f472b6" font-size="12" font-family="monospace">$993K</text>
+            <!-- X labels -->
+            <text x="80" y="200" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">2023</text>
+            <text x="160" y="200" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">2024</text>
+            <text x="240" y="200" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">2025</text>
+            <text x="320" y="200" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">2026P</text>
+            <text x="400" y="200" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="12" font-family="monospace">2027P</text>
+            <!-- Projected label -->
+            <text x="360" y="216" text-anchor="middle" fill="rgba(244,114,182,.8)" font-size="10" font-family="monospace" font-weight="600">PROJECTED</text>
+          </svg>
+          <div class="gp-note"><strong>131% YoY growth in 2025</strong> is exceptional but from a low base. Projected capacity revenue of ~$993K requires hiring 1 FT + 1 PT groomer in a tight labour market.</div>
+        </div>
+      </div>
+ 
+      <!-- Row 2: Valuation Scenarios + Ticket Benchmarks + Risk Matrix -->
+      <div class="groom-row three">
+        <div class="groom-panel">
+          <div class="gp-hd"><span>Valuation Scenarios</span><span class="gp-sub">SDE × Multiple</span></div>
+          <svg viewBox="0 0 280 210" width="100%" style="display:block;overflow:visible;min-height:180px">
+            <!-- Three scenario rows -->
+            <!-- Scenario 1: As-is 3.52x -->
+            <rect x="0" y="10" width="280" height="48" rx="8" fill="rgba(251,191,36,.06)" stroke="rgba(251,191,36,.2)" stroke-width="1"/>
+            <text x="12" y="30" fill="#fbbf24" font-size="12" font-family="monospace" font-weight="700">AS-IS · 3.52x · $156K SDE</text>
+            <text x="12" y="46" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace">Asking $549K — above market range</text>
+            <!-- Scenario 2: Projections hit 2.57x -->
+            <rect x="0" y="74" width="280" height="48" rx="8" fill="rgba(16,185,129,.06)" stroke="rgba(16,185,129,.22)" stroke-width="1"/>
+            <text x="12" y="94" fill="#6ee7b7" font-size="12" font-family="monospace" font-weight="700">PROJ. HIT · 2.57x · $214K SDE</text>
+            <text x="12" y="110" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace">Attractive — if execution verified</text>
+            <!-- Scenario 3: SDE drops -->
+            <rect x="0" y="138" width="280" height="48" rx="8" fill="rgba(239,68,68,.06)" stroke="rgba(239,68,68,.22)" stroke-width="1"/>
+            <text x="12" y="158" fill="#fca5a5" font-size="12" font-family="monospace" font-weight="700">SDE DROPS · 4.58x · $120K SDE</text>
+            <text x="12" y="174" fill="rgba(255,255,255,.5)" font-size="12" font-family="monospace">Walk away — renegotiate or pass</text>
+          </svg>
+          <div class="gp-note"><strong>Counter target:</strong> $425K–$475K upfront + $50K–$75K earn-out tied to 12-month revenue/SDE milestones. Effective multiple: 2.7–3.0×.</div>
+        </div>
+ 
+        <div class="groom-panel">
+          <div class="gp-hd"><span>Ticket Benchmark</span><span class="gp-sub">vs National Avg</span></div>
+          <svg viewBox="0 0 300 245" width="100%" style="display:block;overflow:visible;min-height:195px">
+            <!-- Y: baseline=200, $0. $150=20. Scale: 180/150 = 1.2px/$ -->
+            <line x1="36" y1="200" x2="276" y2="200" stroke="rgba(255,255,255,.15)" stroke-width="1"/>
+            <line x1="36" y1="140" x2="276" y2="140" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+            <line x1="36" y1="80" x2="276" y2="80" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+            <line x1="36" y1="20" x2="276" y2="20" stroke="rgba(255,255,255,.05)" stroke-width="1"/>
+            <!-- Y labels -->
+            <text x="28" y="204" text-anchor="end" fill="rgba(255,255,255,.5)" font-size="11" font-family="monospace">$0</text>
+            <text x="28" y="144" text-anchor="end" fill="rgba(255,255,255,.5)" font-size="11" font-family="monospace">$50</text>
+            <text x="28" y="84" text-anchor="end" fill="rgba(255,255,255,.5)" font-size="11" font-family="monospace">$100</text>
+            <text x="28" y="24" text-anchor="end" fill="rgba(255,255,255,.5)" font-size="11" font-family="monospace">$150</text>
+            <!-- Budget: $35 → h=42, y=158 -->
+            <rect x="46" y="158" width="44" height="42" rx="5" fill="rgba(239,68,68,.55)"/>
+            <text x="68" y="150" text-anchor="middle" fill="#fca5a5" font-size="12" font-family="monospace" font-weight="600">$35</text>
+            <text x="68" y="216" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="12" font-family="monospace">Budget</text>
+            <!-- National avg: $75 → h=90, y=110 -->
+            <rect x="108" y="110" width="44" height="90" rx="5" fill="rgba(139,92,246,.6)"/>
+            <text x="130" y="102" text-anchor="middle" fill="#c4b5fd" font-size="12" font-family="monospace" font-weight="600">$75</text>
+            <text x="130" y="216" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="12" font-family="monospace">Natl Avg</text>
+            <!-- Premium: $85 → h=102, y=98 -->
+            <rect x="170" y="98" width="44" height="102" rx="5" fill="rgba(139,92,246,.75)"/>
+            <text x="192" y="90" text-anchor="middle" fill="#a78bfa" font-size="12" font-family="monospace" font-weight="600">$85</text>
+            <text x="192" y="216" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="12" font-family="monospace">Premium</text>
+            <!-- This business: $126 → h=151.2, y=48.8 -->
+            <rect x="232" y="49" width="44" height="151" rx="5" fill="rgba(244,114,182,.85)"/>
+            <text x="254" y="40" text-anchor="middle" fill="#f9a8d4" font-size="14" font-family="monospace" font-weight="700">$126</text>
+            <text x="254" y="216" text-anchor="middle" fill="rgba(255,255,255,.55)" font-size="12" font-family="monospace">This Biz</text>
+            <!-- Clean annotation below x-axis labels -->
+            <text x="254" y="232" text-anchor="middle" fill="#f472b6" font-size="10" font-family="monospace" font-weight="700">+49–91%</text>
+            <text x="254" y="243" text-anchor="middle" fill="rgba(244,114,182,.6)" font-size="9" font-family="monospace">vs national avg</text>
+          </svg>
+          <div class="gp-note">The <strong>$126 average ticket</strong> is the strongest signal in this deal. Sustained demand at 50–91% above national average implies genuine brand loyalty and local pricing power.</div>
+        </div>
+ 
+        <div class="groom-panel">
+          <div class="gp-hd"><span>Risk Register</span><span class="gp-sub">Likelihood × Impact</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:1.5px;color:rgba(255,255,255,.3);text-transform:uppercase;padding:0 4px 6px;border-bottom:1px solid rgba(255,255,255,.06)">
+              <span>Risk</span><span style="text-align:center">Likely</span><span style="text-align:center">Impact</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.2)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Groomer attrition post-sale</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fca5a5;text-align:center;background:rgba(239,68,68,.15);border-radius:4px;padding:2px 0">HIGH</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fca5a5;text-align:center;background:rgba(239,68,68,.15);border-radius:4px;padding:2px 0">HIGH</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.2)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Short operating history (3yr)</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fca5a5;text-align:center;background:rgba(239,68,68,.15);border-radius:4px;padding:2px 0">HIGH</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fca5a5;text-align:center;background:rgba(239,68,68,.15);border-radius:4px;padding:2px 0">HIGH</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(251,191,36,.04);border:1px solid rgba(251,191,36,.18)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Lease: 3 years remaining</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fbbf24;text-align:center;background:rgba(251,191,36,.12);border-radius:4px;padding:2px 0">MED</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fbbf24;text-align:center;background:rgba(251,191,36,.12);border-radius:4px;padding:2px 0">MED</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(251,191,36,.04);border:1px solid rgba(251,191,36,.18)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Expansion pro forma execution</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fbbf24;text-align:center;background:rgba(251,191,36,.12);border-radius:4px;padding:2px 0">MED</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#fbbf24;text-align:center;background:rgba(251,191,36,.12);border-radius:4px;padding:2px 0">MED</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(196,181,253,.03);border:1px solid rgba(196,181,253,.12)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Tech platform not transferable</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#c4b5fd;text-align:center;background:rgba(196,181,253,.1);border-radius:4px;padding:2px 0">MED</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#c4b5fd;text-align:center;background:rgba(196,181,253,.1);border-radius:4px;padding:2px 0">MED</span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 60px 60px;gap:8px;align-items:center;padding:7px 10px;border-radius:8px;background:rgba(16,185,129,.03);border:1px solid rgba(16,185,129,.12)">
+              <span style="font-size:11px;color:rgba(255,255,255,.7)">Customer concentration</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#6ee7b7;text-align:center;background:rgba(16,185,129,.1);border-radius:4px;padding:2px 0">LOW</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#6ee7b7;text-align:center;background:rgba(16,185,129,.1);border-radius:4px;padding:2px 0">MED</span>
+            </div>
+          </div>
+          <div class="gp-note"><strong>Two High/High risks</strong> dominate this deal. Groomer retention bonuses at close and at least 2 years of verified financials are non-negotiable conditions before proceeding.</div>
+        </div>
+      </div>
+ 
+    </div><!-- /groom-dash -->
+ 
+<!-- CONCLUSION FIRST -->
+    <div class="doc-section" style="margin-top:8px">
+      <div class="doc-section-hd">Final Verdict</div>
+      <div style="background:linear-gradient(135deg,rgba(251,191,36,.08),rgba(251,191,36,.03));border:1px solid rgba(251,191,36,.25);border-radius:18px;padding:32px 36px;margin-bottom:20px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2.5px;color:#fbbf24;text-transform:uppercase;margin-bottom:14px">BizzedAI Verdict · Hold — Conditionally Attractive</div>
+        <div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:26px;color:#fff;line-height:1.2;margin-bottom:18px;letter-spacing:-.5px">Do not commit without financial verification. This deal is worth pursuing — <em style="color:#fbbf24">at the right price.</em></div>
+        <div style="font-size:14px;color:rgba(255,255,255,.6);line-height:1.75">
+          <p style="margin-bottom:12px">The business has real competitive differentiation. A $126 average ticket — 50–91% above national average — a 2,400-client database, a multi-week waitlist, sophisticated technology, and built-in expansion capacity without capital investment are genuinely rare attributes in the pet grooming segment.</p>
+          <p style="margin-bottom:12px">The problem is exclusively the asking price. At 3.52× current SDE, the seller is pricing future performance that has not yet been delivered. Only 3 years of operating history means there is insufficient evidence that 131% growth is a trend rather than a one-year spike from a low base.</p>
+          <p>Counter at $425K–$475K upfront with a $50K–$75K earn-out tied to 12-month milestones. If the seller insists on the asking price, <strong style="color:#fff">walk away</strong>. If financials verify the SDE and the seller accepts a reasonable counter, this is a quality acquisition in a structurally attractive sector.</p>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:36px">
+        <div style="background:rgba(16,185,129,.06);border:1px solid rgba(16,185,129,.2);border-radius:14px;padding:20px 22px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:#6ee7b7;text-transform:uppercase;margin-bottom:10px">Proceed If</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.6);line-height:1.65">Tax returns verify stated revenue and SDE. Key groomers commit to staying. Lease is assignable. Seller accepts $425K–$475K plus earn-out. Technology platforms are transferable.</div>
+        </div>
+        <div style="background:rgba(239,68,68,.05);border:1px solid rgba(239,68,68,.2);border-radius:14px;padding:20px 22px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:#fca5a5;text-transform:uppercase;margin-bottom:10px">Walk Away If</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.6);line-height:1.65">Financials fall short of listing claims. Seller insists on full $549K with no earn-out. Key groomers are unwilling to commit. Lease renewal option is not in writing.</div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- COLLAPSIBLE FULL TEARDOWN -->
+    <div class="accordion-section" id="accordion-049">
+      <button class="accordion-btn" onclick="toggleAccordion('accordion-049')">
+        <span class="accordion-btn-label">View Full Teardown</span>
+        <span class="accordion-btn-arrow">&#8964;</span>
+      </button>
+      <div class="accordion-body" id="accordion-body-049">
+ 
+        <!-- GATE inside accordion -->
+        <div id="gate-wrapper-049" class="doc-gate-wrapper">
+          <div class="gate-unlocked-notice" id="gate-notice-049">
+            <div class="gun-title">Full teardown unlocked.</div>
+            <div class="gun-sub">The deal structure and 8-point verification checklist are below.</div>
+          </div>
+          <div id="gate-card-049" class="doc-gate-card">
+            <span class="gate-lock-icon">🔒</span>
+            <div class="gate-kicker">Full Teardown · Members Only</div>
+            <h3 class="gate-title">Unlock the Full Analysis</h3>
+            <p class="gate-desc">Get our deal structure recommendation and the 8-point verification checklist. <strong>Free — just your name and email.</strong></p>
+            <div class="gate-form">
+              <div class="gate-name-row">
+                <input class="gate-input" id="gate-first-049" type="text" placeholder="First name">
+                <input class="gate-input" id="gate-last-049" type="text" placeholder="Last name">
+              </div>
+              <input class="gate-input" id="gate-email-049" type="email" placeholder="you@acquireco.com">
+              <button class="gate-btn" id="gate-btn-049" onclick="unlockGate('049')">Unlock Full Teardown ✶</button>
+              <div class="gate-err-msg" id="gate-err-049"></div>
+              <p class="gate-fine">✓ Free forever · ✓ No spam · ✓ Unsubscribe anytime</p>
+            </div>
+          </div>
+          <div class="doc-gate-blur" id="gate-blur-049">
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Why This Deal Caught Our Attention</div>
+          <div class="doc-callout warn"><strong>Premium signals in a commoditised sector:</strong> A $126 average ticket — 50–91% above the national grooming average — combined with a 2–3 week waitlist and a 2,400-client database in a growing Texas market represents genuine pricing power, not just a seller story. These are real demand indicators.</div>
+          <div class="flag-list">
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>131% YoY revenue growth in 2025</strong> — verifiable via bank statements. From a low base, but the trajectory is real.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>AI-driven booking + custom mobile app</strong> — uncommon infrastructure for an independent groomer. Reduces no-shows, supports semi-absentee model.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>Built-in expansion capacity</strong> — 2,100 sq ft facility can accommodate 1–2 additional grooming stations with no capital investment. Rare.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>Texas market tailwind</strong> — state added 391,243 residents in 2025. 43% of Texas HH own a dog. Local area projected +16% population growth by 2029.</div></div>
+            <div class="flag-item red"><span class="icon">🚨</span><div><strong>Only 3 years of operating history</strong> — the standard acquisition floor is 3–5 years of auditable financials. This business does not yet clear it.</div></div>
+            <div class="flag-item red"><span class="icon">🚨</span><div><strong>3.52× asking multiple</strong> — exceeds the 2.0–3.3× market range for pet grooming. Seller is pricing future growth, not current performance.</div></div>
+          </div>
+        </div>
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Financial Analysis</div>
+          <table class="doc-table">
+            <thead><tr><th>Metric</th><th>Listing Claim</th><th>Benchmark</th><th>Assessment</th></tr></thead>
+            <tbody>
+              <tr class="row-good"><td>Gross Revenue</td><td>$750K–$800K projected</td><td>Median: ~$300K</td><td>Well above median — credible given client base</td></tr>
+              <tr><td>SDE (current)</td><td>$156,000</td><td>Median margin: ~30%</td><td>20.8% margin — within range, verify add-backs</td></tr>
+              <tr class="row-good"><td>Average Ticket</td><td>$126</td><td>National: $65–$85</td><td>~50–91% premium — standout differentiator</td></tr>
+              <tr><td>SDE (projected)</td><td>$214,261</td><td>Requires execution</td><td>Plausible but depends on groomer hiring</td></tr>
+              <tr class="row-warn"><td>EBITDA</td><td>Not disclosed</td><td>Typical: 10–20%</td><td>Request full P&amp;L before proceeding</td></tr>
+              <tr class="row-warn"><td>Asking Multiple</td><td>3.52× SDE</td><td>Market: 2.0–3.3×</td><td>Above market — growth premium not yet earned</td></tr>
+            </tbody>
+          </table>
+          <div class="doc-callout violet"><strong>SDE discrepancy note:</strong> Listing states $156,000 in one place and $159,858 in the expansion pro forma. Minor, but request a single verified P&amp;L reconciliation before LOI.</div>
+        </div>
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Operations &amp; Competitive Position</div>
+          <div class="doc-callout success"><strong>Semi-absentee infrastructure is rare:</strong> 12 employees, full front-desk staff, documented SOPs, and AI-driven booking at 3 years old suggests a business built to scale — not a lifestyle operation. Verify the &ldquo;10–15 hrs/week&rdquo; claim specifically.</div>
+          <div class="flag-list">
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>$126 average ticket vs $65–$85 national</strong> — pricing power that chains and mobile operators cannot easily match in a premium Texas suburb.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>Technology infrastructure</strong> — AI booking, custom app, and automated reminders reduce friction and support the absentee model. Verify transferability of all platforms.</div></div>
+            <div class="flag-item red"><span class="icon">🚨</span><div><strong>Groomer labour is the single biggest operational risk.</strong> The U.S. faces a shortage of ~64,000 groomers. Existing staff retention post-close determines whether the expansion pro forma is achievable or theoretical.</div></div>
+            <div class="flag-item warn"><span class="icon">⚠️</span><div><strong>Lease: 3 years remaining</strong> — require lease assignment or renewal option confirmation at LOI. Facilities with under 4 years on lease lose 30–40% of resale value.</div></div>
+          </div>
+        </div>
+ 
+ 
+            <div class="doc-section">
+              <div class="doc-section-hd">Deal Structure Recommendation</div>
+              <div class="doc-callout pink"><strong>Structure the offer with an earn-out:</strong> $425,000–$475,000 at closing (2.7–3.0× current SDE) plus $50,000–$75,000 in earn-out payments tied to specific revenue or SDE milestones in the 12 months after closing.</div>
+              <table class="doc-table">
+                <thead><tr><th>Structure Component</th><th>Amount</th><th>Rationale</th></tr></thead>
+                <tbody>
+                  <tr class="row-good"><td>Upfront Payment</td><td>$425K–$475K</td><td>2.7–3.0× current SDE — fair for premium attributes</td></tr>
+                  <tr class="row-good"><td>Earn-Out</td><td>$50K–$75K</td><td>Tied to 12-month revenue or SDE milestones post-close</td></tr>
+                  <tr><td>Seller Transition</td><td>30–60 days minimum</td><td>Operational handover, staff introductions, SOP transfer</td></tr>
+                  <tr class="row-warn"><td>Groomer Retention Bonus</td><td>Non-negotiable</td><td>Funded by seller at close, paid at 12-month milestone</td></tr>
+                  <tr class="row-warn"><td>Lease Assignment</td><td>Required at LOI</td><td>Confirm renewal option for 5-year extension is intact</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="doc-section">
+              <div class="doc-section-hd">Verification Checklist — 8 Non-Negotiables</div>
+              <div class="doc-checklist">
+                <div class="chk-item"><span class="chk-badge crit">Critical</span><div><div class="chk-title">2 years of federal tax returns — verified revenue and SDE</div><div class="chk-desc">131% growth means nothing without bank statements showing monthly deposits consistent with the trajectory.</div></div></div>
+                <div class="chk-item"><span class="chk-badge crit">Critical</span><div><div class="chk-title">Key groomers confirm intent to stay under new ownership</div><div class="chk-desc">Groomers ARE the revenue. If the top 2–3 producers leave at close, the $126 ticket and the waitlist leave with them.</div></div></div>
+                <div class="chk-item"><span class="chk-badge crit">Critical</span><div><div class="chk-title">Lease assignable with renewal option confirmed in writing</div><div class="chk-desc">Facilities with under 4 years on lease lose 30–40% of resale value. Require written landlord confirmation before LOI.</div></div></div>
+                <div class="chk-item"><span class="chk-badge high">High</span><div><div class="chk-title">Semi-absentee model verified — owner confirms actual hours worked</div><div class="chk-desc">If the owner is actively grooming, the SDE is understated. Verify which is true before valuing the business.</div></div></div>
+                <div class="chk-item"><span class="chk-badge high">High</span><div><div class="chk-title">Technology platforms confirmed transferable with documented costs</div><div class="chk-desc">Custom app and AI booking may be proprietary or off-the-shelf. Verify ownership and licensing costs.</div></div></div>
+                <div class="chk-item"><span class="chk-badge high">High</span><div><div class="chk-title">Active client count — confirm 1,500+ of 2,400 clients are active</div><div class="chk-desc">Request a CRM export showing visit frequency by client.</div></div></div>
+                <div class="chk-item"><span class="chk-badge med">Medium</span><div><div class="chk-title">Seller provides credible reason for selling a 3-year-old growth business</div><div class="chk-desc">&ldquo;Family reasons&rdquo; warrants direct questioning. A fast-growing profitable business selling at year 3 needs a better story.</div></div></div>
+                <div class="chk-item"><span class="chk-badge med">Medium</span><div><div class="chk-title">No material litigation, liens, or undisclosed liabilities</div><div class="chk-desc">Standard check — especially important given the 12-person payroll.</div></div></div>
+              </div>
+            </div>
+          </div><!-- /gate-blur -->
+        </div><!-- /gate-wrapper -->
+ 
+      </div><!-- /accordion-body -->
+    </div><!-- /accordion-section -->
+ 
+    <div class="doc-footer-bar">
+      <button class="doc-footer-back" onclick="closeDoc()">&#8592; Back to Teardowns</button>
+      <span>Issue #002 · Texas Dog Grooming · BizzedAI · Apr 2026</span>
+    </div>
+ 
+    </div><!-- /doc-049 -->
+ 
+  <!-- ============================================================
+       ISSUE #001 — ALBANY METRO HVAC
+  ============================================================ -->
+  <div class="doc-body" id="doc-048" style="display:none">
+ 
+    <div class="doc-eyebrow">Weekly Deal Teardown · Issue #001</div>
+    <h1 class="doc-title">Albany Metro <em>HVAC.</em></h1>
+    <p class="doc-subtitle">$4.36M revenue · 17 employees · 18-year-old business · Asking $2.4M · SBA pre-approved @ $1M</p>
+ 
+    <!-- THESIS VERDICT BANNER -->
+    <div class="thesis-verdict-strip">
+      <div class="tvs-top-row">
+        <div class="tvs-cell tvs-verdict">
+          <span class="tvs-label">THESIS VERDICT</span>
+          <span class="tvs-val">Conditional Buy</span>
+        </div>
+        <div class="tvs-cell">
+          <span class="tvs-label">TARGET SECTOR</span>
+          <span class="tvs-val tvs-pink">HVAC Services</span>
+        </div>
+        <div class="tvs-cell">
+          <span class="tvs-label">ENTRY PRICE</span>
+          <span class="tvs-val tvs-violet">$1.9M</span>
+        </div>
+      </div>
+      <div class="tvs-stats-row">
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">62</span><span class="tvs-stat-lbl">BizzedAI Score</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">$4.36M</span><span class="tvs-stat-lbl">Revenue 2025</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">$740K</span><span class="tvs-stat-lbl">SDE 2025</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">2.57x</span><span class="tvs-stat-lbl">Target Multiple</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">2.7yr</span><span class="tvs-stat-lbl">Payback</span></div>
+        <div class="tvs-stat-pill"><span class="tvs-stat-val">17</span><span class="tvs-stat-lbl">Employees</span></div>
+      </div>
+    </div>
+ 
+    <!-- =========================================
+         DD HEALTH DASHBOARD
+    ========================================= -->
+    <div class="dd-dashboard">
+      <div class="dd-dash-hd">Deal Health Overview</div>
+ 
+      <!-- SVG gradient defs (hidden) -->
+      <svg width="0" height="0" style="position:absolute">
+        <defs>
+          <linearGradient id="gradBrit" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#c4b5fd"/>
+            <stop offset="100%" stop-color="#8b5cf6"/>
+          </linearGradient>
+          <linearGradient id="gradBizzed" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f472b6"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+          </linearGradient>
+          <linearGradient id="gradSows" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6ee7b7"/>
+            <stop offset="100%" stop-color="#10b981"/>
+          </linearGradient>
+          <linearGradient id="gradDealGood" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#6ee7b7"/>
+            <stop offset="100%" stop-color="#10b981"/>
+          </linearGradient>
+          <linearGradient id="gradDealBad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fca5a5"/>
+            <stop offset="100%" stop-color="#ef4444"/>
+          </linearGradient>
+        </defs>
+      </svg>
+ 
+      <!-- 4 score rings -->
+      <div class="dd-scores-row">
+        <!-- BRIT Potential -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill brit" cx="55" cy="55" r="46"
+                data-pct="62"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="62">0%</span>
+              <span class="dd-ring-sub">BRIT</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">BRIT Potential</span>
+        </div>
+        <!-- Bizzed Score -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill bizzed" cx="55" cy="55" r="46"
+                data-pct="58"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="58">0%</span>
+              <span class="dd-ring-sub">Score</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">Bizzed Score</span>
+        </div>
+        <!-- SOWS Score -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill sows" cx="55" cy="55" r="46"
+                data-pct="55"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="55">0%</span>
+              <span class="dd-ring-sub">SOWS</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">SOWS Score</span>
+        </div>
+        <!-- Dealbreaker Score (lower = better) -->
+        <div class="dd-score-item">
+          <div class="dd-ring-wrap">
+            <svg viewBox="0 0 110 110">
+              <circle class="dd-ring-bg" cx="55" cy="55" r="46"/>
+              <circle class="dd-ring-fill deal-high" cx="55" cy="55" r="46"
+                data-pct="34"
+                stroke-dasharray="289"
+                stroke-dashoffset="289"/>
+            </svg>
+            <div class="dd-ring-center">
+              <span class="dd-ring-pct" data-target="34">0%</span>
+              <span class="dd-ring-sub">Risk</span>
+            </div>
+          </div>
+          <span class="dd-score-lbl">Dealbreaker Score</span>
+        </div>
+      </div>
+ 
+      <!-- Verdict strip -->
+      <div class="dd-verdict-strip">
+        <span class="dd-verdict-badge">◉ Verdict</span>
+        <span class="dd-verdict-val">Conditional Buy @ $1.9M</span>
+        <span class="dd-verdict-score">62 / 100</span>
+      </div>
+ 
+      <!-- Key Risk Factors -->
+      <div class="dd-risks-hd"><span class="dd-risk-icon">⚠</span> Key Risk Factors</div>
+      <div class="dd-risk-rows">
+        <div class="dd-risk-group-lbl crit">⬤ Critical Risks</div>
+        <div class="dd-risk-row crit" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">CRITICAL</span>
+            <span class="dd-risk-title">Owner Holds All Licenses — Transfer Uncertainty</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">The retiring owner is the license holder for HVAC contracting in New York. License transfer or re-testing timelines can take 3–12 months, halting operations. Escrow release must be contingent on successful transfer.</div>
+        </div>
+        <div class="dd-risk-row crit" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">CRITICAL</span>
+            <span class="dd-risk-title">80% Revenue from Single GC Customer</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">Roughly 80% of revenue flows from one general contractor. Loss of this client post-acquisition would be catastrophic. Require multi-year contract guarantees or a significant price adjustment before proceeding.</div>
+        </div>
+        <div class="dd-risk-group-lbl high">⬤ High Risks</div>
+        <div class="dd-risk-row high" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">HIGH</span>
+            <span class="dd-risk-title">2023 SDE Collapse — Unverified Recovery</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">SDE dropped sharply in 2023 before recovering in 2024–25. The cause has not been independently verified. A QoE must explain and validate the recovery before any earnout or full price is paid.</div>
+        </div>
+        <div class="dd-risk-row high" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">HIGH</span>
+            <span class="dd-risk-title">SBA Covers Only $1M of $2.4M Ask</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">The buyer must fund a $1.4M gap through equity and seller financing. At $1.9M the payback drops from 3.8 to 2.7 years, making the deal workable — but only at the counter-price.</div>
+        </div>
+        <div class="dd-risk-group-lbl str">⬤ Key Strengths</div>
+        <div class="dd-risk-row str" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">STRENGTH</span>
+            <span class="dd-risk-title">In-House Sheet Metal Fab — Real Competitive Moat</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">In-house fabrication captures margin that competitors send out. It's capital-intensive to replicate and adds genuine enterprise value beyond cash flow. A defensible operational advantage.</div>
+        </div>
+        <div class="dd-risk-row str" onclick="this.classList.toggle('open')">
+          <div class="dd-risk-hd">
+            <span class="dd-risk-badge">STRENGTH</span>
+            <span class="dd-risk-title">46% Revenue Growth Since 2021 + SBA Pre-Approved</span>
+            <span class="dd-risk-arrow">▼</span>
+          </div>
+          <div class="dd-risk-body">Riding the Albany semiconductor construction wave with strong top-line growth. SBA pre-approval of $1M signals professionally maintained books. A quality-of-earnings review should be straightforward.</div>
+        </div>
+      </div>
+    </div><!-- /dd-dashboard -->
+ 
+<!-- FINANCIAL ANALYTICS DASHBOARD -->
+      <div class="bz-dash" style="margin-bottom:32px">
+ 
+        <!-- ROW 1: Revenue bars + Margin line -->
+        <div class="bz-dash-2col">
+ 
+          <!-- LEFT: Revenue & SDE bar chart + Deal compare -->
+          <div class="bz-panel">
+            <div class="bz-panel-hd">
+              <span>REVENUE &amp; SDE HISTORY</span>
+              <span class="bz-panel-sub">2021–2025</span>
+            </div>
+            <div class="bz-chart-wrap">
+              <svg viewBox="0 0 440 200" width="100%" style="display:block;overflow:visible">
+                <defs>
+                  <linearGradient id="revGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(196,181,253,0.9)"/>
+                    <stop offset="100%" stop-color="rgba(196,181,253,0.25)"/>
+                  </linearGradient>
+                  <linearGradient id="sdeGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(16,185,129,0.9)"/>
+                    <stop offset="100%" stop-color="rgba(16,185,129,0.25)"/>
+                  </linearGradient>
+                  <linearGradient id="sdeWarn" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(239,68,68,0.9)"/>
+                    <stop offset="100%" stop-color="rgba(239,68,68,0.25)"/>
+                  </linearGradient>
+                </defs>
+                <!-- Y: baseline=168, top=15. 153px = $4.4M. 1px = $28,758 -->
+                <line x1="44" y1="15"  x2="430" y2="15"  stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+                <line x1="44" y1="50"  x2="430" y2="50"  stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+                <line x1="44" y1="89"  x2="430" y2="89"  stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+                <line x1="44" y1="128" x2="430" y2="128" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+                <line x1="44" y1="168" x2="430" y2="168" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+                <text x="38" y="19"  text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">$4.4M</text>
+                <text x="38" y="54"  text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">$3.2M</text>
+                <text x="38" y="93"  text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">$1.8M</text>
+                <text x="38" y="132" text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">$500K</text>
+                <text x="38" y="172" text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">$0</text>
+                <!-- Group 1: '21  Rev $2.98M → h=103.6, y=64.4   SDE $0.52M → h=18.1, y=149.9 -->
+                <rect x="56"  y="65"  width="30" height="103" rx="3" fill="url(#revGrad)"/>
+                <rect x="90"  y="150" width="18" height="18"  rx="3" fill="url(#sdeGrad)"/>
+                <text x="79"  y="182" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'21</text>
+                <text x="71"  y="60"  text-anchor="middle" fill="#c4b5fd" font-size="10" font-family="monospace" font-weight="600">$2.98M</text>
+                <!-- Group 2: '22  Rev $3.42M → h=118.8, y=49.2   SDE $0.61M → h=21.2, y=146.8 -->
+                <rect x="118" y="49"  width="30" height="119" rx="3" fill="url(#revGrad)"/>
+                <rect x="152" y="147" width="18" height="21"  rx="3" fill="url(#sdeGrad)"/>
+                <text x="141" y="182" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'22</text>
+                <text x="133" y="44"  text-anchor="middle" fill="#c4b5fd" font-size="10" font-family="monospace" font-weight="600">$3.42M</text>
+                <!-- Group 3: '23  Rev $3.60M → h=125, y=43   SDE $0.31M → h=10.8, y=157.2 (RED) -->
+                <rect x="180" y="43"  width="30" height="125" rx="3" fill="url(#revGrad)" opacity="0.55"/>
+                <rect x="214" y="157" width="18" height="11"  rx="3" fill="url(#sdeWarn)"/>
+                <text x="203" y="182" text-anchor="middle" fill="#ef4444" font-size="11" font-family="monospace">'23</text>
+                <text x="195" y="38"  text-anchor="middle" fill="rgba(196,181,253,.6)" font-size="10" font-family="monospace">$3.60M</text>
+                <text x="223" y="154" text-anchor="middle" fill="#ef4444" font-size="10" font-family="monospace" font-weight="700">⚠</text>
+                <!-- Group 4: '24  Rev $4.10M → h=142.4, y=25.6   SDE $0.69M → h=24, y=144 -->
+                <rect x="242" y="26"  width="30" height="142" rx="3" fill="url(#revGrad)"/>
+                <rect x="276" y="144" width="18" height="24"  rx="3" fill="url(#sdeGrad)"/>
+                <text x="265" y="182" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'24</text>
+                <text x="257" y="21"  text-anchor="middle" fill="#c4b5fd" font-size="10" font-family="monospace" font-weight="600">$4.10M</text>
+                <!-- Group 5: '25  Rev $4.36M → h=151.4, y=16.6   SDE $0.74M → h=25.7, y=142.3 -->
+                <rect x="304" y="17"  width="30" height="151" rx="3" fill="url(#revGrad)"/>
+                <rect x="338" y="142" width="18" height="26"  rx="3" fill="url(#sdeGrad)"/>
+                <text x="327" y="182" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'25</text>
+                <text x="319" y="12"  text-anchor="middle" fill="#6ee7b7" font-size="10" font-family="monospace" font-weight="700">$4.36M</text>
+              </svg>
+            </div>
+            <div class="bz-chart-legend" style="margin-bottom:16px">
+              <span><span class="bz-ld" style="background:#a78bfa"></span>REVENUE</span>
+              <span><span class="bz-ld" style="background:#10b981"></span>SDE</span>
+              <span><span class="bz-ld" style="background:#ef4444"></span>2023 COLLAPSE</span>
+            </div>
+            <!-- Mini KPI strip to fill the space -->
+            <div class="bz-kpi-strip">
+              <div class="bz-kpi-item">
+                <div class="bz-kpi-label">5-YR GROWTH</div>
+                <div class="bz-kpi-val" style="color:var(--success)">+46%</div>
+              </div>
+              <div class="bz-kpi-item">
+                <div class="bz-kpi-label">AVG MARGIN</div>
+                <div class="bz-kpi-val" style="color:var(--violet)">15.5%</div>
+              </div>
+              <div class="bz-kpi-item">
+                <div class="bz-kpi-label">2023 DIP</div>
+                <div class="bz-kpi-val" style="color:var(--danger)">-51%</div>
+              </div>
+              <div class="bz-kpi-item">
+                <div class="bz-kpi-label">RECOVERY</div>
+                <div class="bz-kpi-val" style="color:var(--success)">+139%</div>
+              </div>
+            </div>
+          </div>
+ 
+          <!-- RIGHT: SDE Margin line + Deal structure -->
+          <div class="bz-panel">
+            <div class="bz-panel-hd">
+              <span>SDE MARGIN %</span>
+              <span class="bz-panel-sub">2021–2025</span>
+            </div>
+            <svg viewBox="0 0 380 150" width="100%" style="display:block;overflow:visible;margin-bottom:14px">
+              <defs>
+                <linearGradient id="marginAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="rgba(244,114,182,0.3)"/>
+                  <stop offset="100%" stop-color="rgba(244,114,182,0)"/>
+                </linearGradient>
+              </defs>
+              <line x1="40" y1="15" x2="365" y2="15" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              <line x1="40" y1="55" x2="365" y2="55" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              <line x1="40" y1="95" x2="365" y2="95" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              <text x="34" y="19" text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">20%</text>
+              <text x="34" y="59" text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">13%</text>
+              <text x="34" y="99" text-anchor="end" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">6%</text>
+              <polygon points="60,29 130,27 200,96 270,31 340,30 340,120 60,120" fill="url(#marginAreaGrad)"/>
+              <polyline points="60,29 130,27 200,96 270,31 340,30" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+              <circle cx="60" cy="29" r="4" fill="#f472b6"/>
+              <circle cx="130" cy="27" r="4" fill="#f472b6"/>
+              <circle cx="200" cy="96" r="5" fill="#ef4444" stroke="#fff" stroke-width="1.5"/>
+              <circle cx="270" cy="31" r="4" fill="#f472b6"/>
+              <circle cx="340" cy="30" r="4" fill="#10b981"/>
+              <text x="60" y="20" text-anchor="middle" fill="#f472b6" font-size="11" font-family="monospace" font-weight="bold">17.4%</text>
+              <text x="130" y="18" text-anchor="middle" fill="#f472b6" font-size="11" font-family="monospace" font-weight="bold">17.8%</text>
+              <text x="200" y="82" text-anchor="middle" fill="#ef4444" font-size="11" font-family="monospace" font-weight="bold">8.6%</text>
+              <text x="200" y="115" text-anchor="middle" fill="#ef4444" font-size="10" font-family="monospace" font-weight="bold">⚠ COLLAPSE</text>
+              <text x="270" y="22" text-anchor="middle" fill="#f472b6" font-size="11" font-family="monospace" font-weight="bold">16.8%</text>
+              <text x="340" y="21" text-anchor="middle" fill="#10b981" font-size="11" font-family="monospace" font-weight="bold">17.0%</text>
+              <text x="60" y="135" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'21</text>
+              <text x="130" y="135" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'22</text>
+              <text x="200" y="138" text-anchor="middle" fill="#ef4444" font-size="11" font-family="monospace">'23</text>
+              <text x="270" y="135" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'24</text>
+              <text x="340" y="135" text-anchor="middle" fill="rgba(255,255,255,.65)" font-size="11" font-family="monospace">'25</text>
+            </svg>
+            <div class="bz-deal-mini">
+              <div class="bz-deal-mini-col bz-dmc-ask">
+                <div class="bz-dmc-lbl">SELLER ASK</div>
+                <div class="bz-dmc-price">$2.4M</div>
+                <div class="bz-dmc-row"><span>Multiple</span><span>3.24× SDE</span></div>
+                <div class="bz-dmc-row"><span>Payback</span><span class="bz-bad">3.8 yrs ✗</span></div>
+              </div>
+              <div class="bz-deal-mini-vs">VS</div>
+              <div class="bz-deal-mini-col bz-dmc-counter">
+                <div class="bz-dmc-lbl">BIZZEDAI TARGET</div>
+                <div class="bz-dmc-price" style="color:var(--success)">$1.9M</div>
+                <div class="bz-dmc-row"><span>Multiple</span><span>2.57× SDE</span></div>
+                <div class="bz-dmc-row"><span>Payback</span><span class="bz-good">2.7 yrs ✓</span></div>
+              </div>
+            </div>
+          </div>
+ 
+        </div>
+ 
+        <!-- ROW 2: BRIT + Risk donut + Scenarios -->
+        <div class="bz-dash-3col" style="margin-top:20px">
+ 
+          <div class="bz-panel">
+            <div class="bz-panel-hd"><span>BRIT FRAMEWORK</span><span class="bz-panel-sub">SCORE /25</span></div>
+            <div class="bz-brit-list">
+              <div class="bz-brit-row">
+                <span class="bz-brit-letter" style="color:#a78bfa">B</span>
+                <span class="bz-brit-name">Business Quality</span>
+                <div class="bz-brit-track"><div style="width:64%;background:linear-gradient(90deg,#fbbf24,rgba(251,191,36,.3))"></div></div>
+                <span class="bz-brit-score" style="color:#fbbf24">16</span>
+              </div>
+              <div class="bz-brit-row">
+                <span class="bz-brit-letter" style="color:#ef4444">R</span>
+                <span class="bz-brit-name">Risk Profile</span>
+                <div class="bz-brit-track"><div style="width:48%;background:linear-gradient(90deg,#ef4444,rgba(239,68,68,.3))"></div></div>
+                <span class="bz-brit-score" style="color:#ef4444">12</span>
+              </div>
+              <div class="bz-brit-row">
+                <span class="bz-brit-letter" style="color:#10b981">I</span>
+                <span class="bz-brit-name">Investment Return</span>
+                <div class="bz-brit-track"><div style="width:76%;background:linear-gradient(90deg,#10b981,rgba(16,185,129,.3))"></div></div>
+                <span class="bz-brit-score" style="color:#10b981">19</span>
+              </div>
+              <div class="bz-brit-row">
+                <span class="bz-brit-letter" style="color:#fbbf24">T</span>
+                <span class="bz-brit-name">Transfer Complexity</span>
+                <div class="bz-brit-track"><div style="width:60%;background:linear-gradient(90deg,#fbbf24,rgba(251,191,36,.3))"></div></div>
+                <span class="bz-brit-score" style="color:#fbbf24">15</span>
+              </div>
+              <div class="bz-brit-total-row">
+                <span>COMPOSITE</span>
+                <span class="bz-brit-total-val">62 / 100</span>
+              </div>
+            </div>
+            <!-- Composite gauge bar -->
+            <div style="margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.06)">
+              <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(255,255,255,.35);letter-spacing:1px;margin-bottom:6px">
+                <span>WEAK</span><span>NEUTRAL</span><span>STRONG</span>
+              </div>
+              <div style="height:10px;background:rgba(255,255,255,.06);border-radius:5px;overflow:hidden;position:relative">
+                <div style="height:100%;width:62%;background:linear-gradient(90deg,#8b5cf6,#fbbf24);border-radius:5px"></div>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(255,255,255,.3);letter-spacing:1px;margin-top:4px">
+                <span>0</span><span>50</span><span>100</span>
+              </div>
+              <div style="margin-top:12px;background:rgba(251,191,36,.06);border:1px solid rgba(251,191,36,.2);border-radius:8px;padding:10px 12px;font-size:11px;color:rgba(255,255,255,.6);line-height:1.55">
+                <strong style="color:#fbbf24">Conditional Buy.</strong> Investment Return (19/25) is the standout score. Risk Profile (12/25) drags the composite — manageable only with GC contract and license transfer confirmed at LOI.
+              </div>
+            </div>
+          </div>
+ 
+          <div class="bz-panel">
+            <div class="bz-panel-hd"><span>RISK PROFILE</span><span class="bz-panel-sub">BREAKDOWN</span></div>
+            <div style="display:flex;align-items:center;gap:16px;justify-content:center;padding:6px 0">
+              <svg viewBox="0 0 120 120" width="100" height="100">
+                <circle cx="60" cy="60" r="44" fill="none" stroke="#ef4444" stroke-width="16" stroke-dasharray="110.6 165.9" stroke-dashoffset="69.1" opacity="0.9"/>
+                <circle cx="60" cy="60" r="44" fill="none" stroke="#fbbf24" stroke-width="16" stroke-dasharray="96.8 179.7" stroke-dashoffset="-41.5" opacity="0.9"/>
+                <circle cx="60" cy="60" r="44" fill="none" stroke="#8b5cf6" stroke-width="16" stroke-dasharray="69.1 207.4" stroke-dashoffset="-138.3" opacity="0.9"/>
+                <circle cx="60" cy="60" r="35" fill="rgba(10,8,22,.9)"/>
+                <text x="60" y="56" text-anchor="middle" fill="#fff" font-size="15" font-family="serif" font-style="italic" font-weight="bold">34</text>
+                <text x="60" y="68" text-anchor="middle" fill="rgba(255,255,255,.6)" font-size="7" font-family="monospace">RISK</text>
+              </svg>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:rgba(255,255,255,.65)"><span style="width:10px;height:10px;border-radius:2px;background:#ef4444;display:inline-block"></span>Critical 40%</div>
+                <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:rgba(255,255,255,.65)"><span style="width:10px;height:10px;border-radius:2px;background:#fbbf24;display:inline-block"></span>High 35%</div>
+                <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:rgba(255,255,255,.65)"><span style="width:10px;height:10px;border-radius:2px;background:#8b5cf6;display:inline-block"></span>Medium 25%</div>
+              </div>
+            </div>
+            <div class="bz-panel-note" style="padding-top:10px;margin-top:6px">Risk score <strong>34/100</strong> — manageable only if critical risks mitigated at LOI.</div>
+          </div>
+ 
+          <div class="bz-panel">
+            <div class="bz-panel-hd"><span>DOWNSIDE SCENARIOS</span><span class="bz-panel-sub">@ $1.9M</span></div>
+            <div class="bz-scenario-list">
+              <div class="bz-sc-row bz-sc-bull">
+                <div class="bz-sc-tag">BULL</div>
+                <div class="bz-sc-rev">$5.2M · $900K SDE</div>
+                <div class="bz-sc-bar-wrap"><div style="width:90%;background:var(--success)"></div></div>
+                <div class="bz-sc-payback" style="color:var(--success)">2.1y</div>
+              </div>
+              <div class="bz-sc-row bz-sc-base">
+                <div class="bz-sc-tag">BASE</div>
+                <div class="bz-sc-rev">$4.4M · $740K SDE</div>
+                <div class="bz-sc-bar-wrap"><div style="width:68%;background:var(--violet)"></div></div>
+                <div class="bz-sc-payback" style="color:var(--violet)">2.7y</div>
+              </div>
+              <div class="bz-sc-row bz-sc-bear">
+                <div class="bz-sc-tag">BEAR</div>
+                <div class="bz-sc-rev">$1.5M · $180K SDE</div>
+                <div class="bz-sc-bar-wrap"><div style="width:28%;background:var(--warn)"></div></div>
+                <div class="bz-sc-payback" style="color:var(--warn)">10.6y</div>
+              </div>
+              <div class="bz-sc-row bz-sc-cat">
+                <div class="bz-sc-tag">CATAS.</div>
+                <div class="bz-sc-rev">$800K · -$40K SDE</div>
+                <div class="bz-sc-bar-wrap"><div style="width:5%;background:var(--danger)"></div></div>
+                <div class="bz-sc-payback" style="color:var(--danger)">Never</div>
+              </div>
+            </div>
+            <div class="bz-panel-note" style="padding-top:10px;margin-top:6px">Bear/Cat. triggered by GC loss — multi-year contract at LOI is non-negotiable.</div>
+          </div>
+ 
+        </div>
+      </div><!-- /bz-dash teardown -->
+ 
+ 
+    <!-- VERDICT BANNER -->
+ 
+    <!-- FINAL VERDICT FIRST -->
+    <div class="doc-section" style="margin-top:8px">
+      <div class="doc-section-hd">Final Verdict</div>
+      <div style="background:linear-gradient(135deg,rgba(251,191,36,.08),rgba(251,191,36,.03));border:1px solid rgba(251,191,36,.25);border-radius:18px;padding:32px 36px;margin-bottom:20px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2.5px;color:#fbbf24;text-transform:uppercase;margin-bottom:14px">BizzedAI Verdict · Conditional Buy @ $1.9M</div>
+        <div style="font-family:'Instrument Serif',serif;font-style:italic;font-size:26px;color:#fff;line-height:1.2;margin-bottom:18px;letter-spacing:-.5px">A genuine moat at the right price — but two <em style="color:#fbbf24">non-negotiable conditions</em> must close with the deal.</div>
+        <div style="font-size:14px;color:rgba(255,255,255,.6);line-height:1.75">
+          <p style="margin-bottom:12px">Albany Metro HVAC is a real business. In-house sheet metal fabrication is a hard-to-replicate operational moat, 18 years of operating history provides genuine defensibility, and the semiconductor construction tailwind driving Albany’s growth is structural. At $1.9M (2.57× SDE), the numbers work.</p>
+          <p style="margin-bottom:12px">The problem is structural concentration. One GC customer represents ~80% of revenue, and the owner holds every license the business needs to operate. These are not flags to negotiate around — they are conditions. A multi-year GC contract must be signed before LOI. License transfer must be in escrow at close.</p>
+          <p>At $2.4M asking price the deal is marginal. At $1.9M with the conditions in place, <strong style="color:#fff">this is a conditional buy.</strong> Without the conditions, walk away regardless of price.</p>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:36px">
+        <div style="background:rgba(16,185,129,.06);border:1px solid rgba(16,185,129,.2);border-radius:14px;padding:20px 22px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:#6ee7b7;text-transform:uppercase;margin-bottom:10px">Buy At $1.9M If</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.6);line-height:1.65">Multi-year GC contract signed before LOI. License transfer path confirmed and escrowed. QoE explains the 2023 collapse. Owner commits to 12-month paid transition.</div>
+        </div>
+        <div style="background:rgba(239,68,68,.05);border:1px solid rgba(239,68,68,.2);border-radius:14px;padding:20px 22px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:#fca5a5;text-transform:uppercase;margin-bottom:10px">Walk Away If</div>
+          <div style="font-size:13px;color:rgba(255,255,255,.6);line-height:1.65">GC won’t sign a multi-year contract. Seller insists on $2.4M asking price. License transfer path is unclear. QoE cannot explain the 2023 SDE collapse.</div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- COLLAPSIBLE FULL TEARDOWN -->
+    <div class="accordion-section" id="accordion-048">
+      <button class="accordion-btn" onclick="toggleAccordion('accordion-048')">
+        <span class="accordion-btn-label">View Full Teardown</span>
+        <span class="accordion-btn-arrow">&#8964;</span>
+      </button>
+      <div class="accordion-body" id="accordion-body-048">
+ 
+        <!-- GATE inside accordion -->
+        <div id="gate-wrapper-048" class="doc-gate-wrapper">
+          <div class="gate-unlocked-notice" id="gate-notice-048">
+            <div class="gun-title">Full report unlocked.</div>
+            <div class="gun-sub">Conditions checklist, downside model, and BRIT scores are below.</div>
+          </div>
+          <div id="gate-card-048" class="doc-gate-card">
+            <span class="gate-lock-icon">🔒</span>
+            <div class="gate-kicker">Full Report · Members Only</div>
+            <h3 class="gate-title">Unlock the Complete Analysis</h3>
+            <p class="gate-desc">Get the full conditions checklist, downside model, and BRIT framework scores. <strong>Free — just your name and email.</strong></p>
+            <div class="gate-form" id="gate-form-048">
+              <div class="gate-name-row">
+                <input class="gate-input" id="gate-first-048" type="text" placeholder="First name" autocomplete="given-name">
+                <input class="gate-input" id="gate-last-048" type="text" placeholder="Last name" autocomplete="family-name">
+              </div>
+              <input class="gate-input" id="gate-email-048" type="email" placeholder="you@acquireco.com" autocomplete="email">
+              <button class="gate-btn" id="gate-btn-048" onclick="unlockGate('048')">Unlock Full Report ✶</button>
+              <div class="gate-err-msg" id="gate-err-048"></div>
+              <p class="gate-fine">✓ Free forever · ✓ No spam · ✓ Unsubscribe anytime</p>
+            </div>
+          </div>
+          <div class="doc-gate-blur" id="gate-blur-048">
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Business Snapshot</div>
+          <table class="doc-table">
+            <thead><tr><th>Attribute</th><th>Detail</th><th>BizzedAI Flag</th></tr></thead>
+            <tbody>
+              <tr><td>Business Type</td><td>HVAC installation &amp; sheet metal fabrication</td><td>Niche moat — hard to replicate fab</td></tr>
+              <tr><td>Location</td><td>Albany Metro, New York</td><td>Semiconductor construction wave tailwind</td></tr>
+              <tr><td>Revenue (2025)</td><td>$4.36M</td><td>+46% since 2021</td></tr>
+              <tr><td>SDE (2025)</td><td>$740,000</td><td>Post-collapse recovery unverified</td></tr>
+              <tr class="row-warn"><td>Customer Concentration</td><td>~80% from one GC</td><td>Critical risk — requires contract lock-in</td></tr>
+              <tr><td>Employees</td><td>17 full-time</td><td>Owner-dependent — key person risk</td></tr>
+              <tr class="row-warn"><td>Owner Tenure</td><td>18 years, retiring</td><td>Holds licenses — transfer critical path</td></tr>
+              <tr><td>SBA Status</td><td>Pre-approved @ $1M</td><td>Signals clean books</td></tr>
+            </tbody>
+          </table>
+        </div>
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Financial History</div>
+          <div class="doc-callout warn"><strong>2023 Earnings Collapse:</strong> SDE dropped significantly in 2023 before recovering. The cause is unverified — a QoE report must explain this before full price is paid.</div>
+          <div class="doc-chart">
+            <div class="bar-n" style="height:52%"></div>
+            <div class="bar-n" style="height:64%"></div>
+            <div class="bar-d" style="height:30%"></div>
+            <div class="bar-n" style="height:74%"></div>
+            <div class="bar-n" style="height:100%"></div>
+          </div>
+          <div class="doc-chart-labels">
+            <span>'21</span><span>'22</span><span class="hl">'23 ▼</span><span>'24</span><span>'25</span>
+          </div>
+          <table class="doc-table" style="margin-top:16px">
+            <thead><tr><th>Year</th><th>Revenue</th><th>SDE (Est.)</th><th>Margin</th></tr></thead>
+            <tbody>
+              <tr><td>2021</td><td>~$2.98M</td><td>~$520K</td><td>17.4%</td></tr>
+              <tr><td>2022</td><td>~$3.42M</td><td>~$610K</td><td>17.8%</td></tr>
+              <tr class="row-warn"><td>2023</td><td>~$3.60M</td><td>~$310K</td><td>8.6% ⚠</td></tr>
+              <tr><td>2024</td><td>~$4.10M</td><td>~$690K</td><td>16.8%</td></tr>
+              <tr><td>2025</td><td>$4.36M</td><td>$740K</td><td>17.0%</td></tr>
+            </tbody>
+          </table>
+        </div>
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Deal Structure Analysis</div>
+          <div class="offer-grid">
+            <div class="offer-box a">
+              <div class="offer-label">Seller's Ask</div>
+              <div class="offer-row"><span class="offer-row-k">Price</span><span class="offer-row-v">$2.4M</span></div>
+              <div class="offer-row"><span class="offer-row-k">Multiple</span><span class="offer-row-v">3.24x SDE</span></div>
+              <div class="offer-row"><span class="offer-row-k">SBA Coverage</span><span class="offer-row-v">$1.0M (42%)</span></div>
+              <div class="offer-row"><span class="offer-row-k">Equity Gap</span><span class="offer-row-v">$1.4M</span></div>
+              <div class="offer-row"><span class="offer-row-k">Payback</span><span class="offer-row-v">~3.8 years</span></div>
+            </div>
+            <div class="offer-box b">
+              <div class="offer-label">BizzedAI Counter</div>
+              <div class="offer-row"><span class="offer-row-k">Price</span><span class="offer-row-v">$1.9M</span></div>
+              <div class="offer-row"><span class="offer-row-k">Multiple</span><span class="offer-row-v">2.57x SDE</span></div>
+              <div class="offer-row"><span class="offer-row-k">SBA Coverage</span><span class="offer-row-v">$1.0M (53%)</span></div>
+              <div class="offer-row"><span class="offer-row-k">Equity Gap</span><span class="offer-row-v">$900K</span></div>
+              <div class="offer-row"><span class="offer-row-k">Payback</span><span class="offer-row-v">~2.7 years ✓</span></div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="doc-section">
+          <div class="doc-section-hd">Red Flags &amp; Strengths</div>
+          <div class="flag-list">
+            <div class="flag-item red"><span class="icon">🚨</span><div><strong>License transfer risk</strong> — owner holds all NY HVAC contracting licenses. Transfer takes 3–12 months and can halt operations.</div></div>
+            <div class="flag-item red"><span class="icon">🚨</span><div><strong>80% GC concentration</strong> — single customer dependency. No contract = no business. Must be locked in at LOI.</div></div>
+            <div class="flag-item red"><span class="icon">⚠️</span><div><strong>2023 earnings collapse</strong> — unexplained SDE drop. Requires independent QoE before earnout or full payment.</div></div>
+            <div class="flag-item red"><span class="icon">⚠️</span><div><strong>Financing gap</strong> — SBA only covers 42%. Buyer needs $1.4M in equity + seller carry at ask price.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>In-house sheet metal fabrication</strong> — real operational moat. Competitors must outsource; this shop captures that margin.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>+46% revenue growth 2021–2025</strong> — riding Albany's semiconductor construction boom. Genuine tailwind.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>SBA pre-approval @ $1M</strong> — signals clean, professionally maintained books.</div></div>
+            <div class="flag-item green"><span class="icon">✅</span><div><strong>18-year operating history</strong> — established relationships, supplier terms, and institutional knowledge.</div></div>
+          </div>
+        </div>
+ 
+            <div class="doc-section">
+              <div class="doc-section-hd">Conditions to Proceed</div>
+              <div class="doc-checklist">
+                <div class="chk-item"><span class="chk-badge crit">Critical</span><div><div class="chk-title">License Transfer Escrow Lock</div><div class="chk-desc">Tie a portion of purchase price (min. $200K) in escrow contingent on successful license transfer within 90 days of close.</div></div></div>
+                <div class="chk-item"><span class="chk-badge crit">Critical</span><div><div class="chk-title">Multi-Year GC Contract Required</div><div class="chk-desc">Require a minimum 2-year contract from the primary GC before LOI. Without this, the 80% concentration risk is terminal.</div></div></div>
+                <div class="chk-item"><span class="chk-badge high">High</span><div><div class="chk-title">Independent QoE on 2023 SDE Collapse</div><div class="chk-desc">Commission a Quality of Earnings report focused on the 2023 EBITDA decline. The explanation must be verified before earnout or full payment.</div></div></div>
+                <div class="chk-item"><span class="chk-badge high">High</span><div><div class="chk-title">Owner Transition Agreement — 12 Months</div><div class="chk-desc">Require a 12-month paid transition period with defined customer introductions and knowledge transfer milestones.</div></div></div>
+                <div class="chk-item"><span class="chk-badge med">Medium</span><div><div class="chk-title">Equipment Audit &amp; Replacement Schedule</div><div class="chk-desc">The sheet metal fab equipment is a key asset. Independent audit with 5-year replacement schedule required.</div></div></div>
+              </div>
+            </div>
+            <div class="doc-section">
+              <div class="doc-section-hd">Downside Scenario Model</div>
+              <div class="doc-callout danger"><strong>Bear Case:</strong> GC contract not renewed post-acquisition. Revenue drops 65% to ~$1.5M. At $1.9M purchase price, buyer is underwater within 18 months.</div>
+              <table class="doc-table">
+                <thead><tr><th>Scenario</th><th>Revenue</th><th>SDE</th><th>Payback @ $1.9M</th></tr></thead>
+                <tbody>
+                  <tr><td>Bull (GC retained + growth)</td><td>$5.2M</td><td>$900K</td><td>2.1 years</td></tr>
+                  <tr><td>Base (GC retained, flat)</td><td>$4.4M</td><td>$740K</td><td>2.7 years</td></tr>
+                  <tr class="row-warn"><td>Bear (GC lost after 12mo)</td><td>$1.5M</td><td>$180K</td><td>10.6 years</td></tr>
+                  <tr class="row-warn"><td>Catastrophic (GC + license fail)</td><td>$800K</td><td>-$40K</td><td>Never</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="doc-section">
+              <div class="doc-section-hd">BRIT Framework Scores</div>
+              <div class="doc-callout violet"><strong>BRIT</strong> = Business quality · Risk profile · Investment return · Transfer complexity. Each scored 0–25. Composite: <strong>62/100</strong> — viable with conditions.</div>
+              <table class="doc-table">
+                <thead><tr><th>Dimension</th><th>Score</th><th>Key Driver</th></tr></thead>
+                <tbody>
+                  <tr><td>Business Quality</td><td style="color:var(--warn)">16/25</td><td>Strong moat (fab), offset by concentration</td></tr>
+                  <tr><td>Risk Profile</td><td style="color:var(--danger)">12/25</td><td>License transfer + GC concentration = high risk</td></tr>
+                  <tr><td>Investment Return</td><td style="color:var(--violet)">19/25</td><td>Attractive at $1.9M; marginal at $2.4M</td></tr>
+                  <tr><td>Transfer Complexity</td><td style="color:var(--warn)">15/25</td><td>License, owner knowledge, key employee retention</td></tr>
+                  <tr><td><strong>Composite</strong></td><td style="color:#fff"><strong>62/100</strong></td><td>Conditional Buy — proceed only at $1.9M</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div><!-- /gate-blur -->
+        </div><!-- /gate-wrapper -->
+ 
+      </div><!-- /accordion-body -->
+    </div><!-- /accordion-section -->
+ 
+    <div class="doc-footer-bar">
+      <button class="doc-footer-back" onclick="closeDoc()">← Back to Teardowns</button>
+      <span>Issue #001 · Albany Metro HVAC · BizzedAI · Apr 2026</span>
+    </div>
+ 
+    </div><!-- /doc-048 -->
+</div><!-- /doc-page -->
+<script src="js/teardowns.js"></script>
+</body>
+</html>
